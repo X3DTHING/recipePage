@@ -1,0 +1,161 @@
+@font-face{
+    font-family: youngSerif ;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face{
+    font-family: outfit ;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+*{ 
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.container-grid{
+    margin: 0 auto;
+    max-width:600px;
+}
+img{
+    width: 100%;
+}
+body{background-color: hsl(30, 18%, 87%)
+}
+main{background-color: white;
+
+}
+.space{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.space1{
+    padding-right: 500px;
+
+}
+.font{
+    font-size: 42px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+}
+.texto-descricao>h1{
+    text-align: start;
+    font-family: "youngSerif";
+    font-size: 32px;
+}
+.texto-preparacao{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding-left: 30px;
+    display: flex;
+    height: 175px;
+}
+.texto-preparacao>article>h2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.texto-preparacao>article>h2{
+    color: purple;
+    font-family: "outfit";
+    font-size: 16px;
+
+}
+.texto-preparacao>article>ul{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding-inline-start: 15px;
+
+}
+.texto-preparacao>article>ul>li{
+    padding-left: 16px;
+    color: rgb(50, 49, 49);
+    font-family: "outfit";
+
+}
+.texto-preparacao>article>ul>li::marker{
+    color: purple;
+}
+.texto-ingredientes>article>h3{
+font-family: "youngSerif";
+color: brown;
+font-size: 28px;
+font-weight: 600;
+}
+.texto-ingredientes>article>ul{
+    padding-inline-start: 15px;
+    font-family: "outfit";
+    color: rgb(50, 49, 49,0.826);
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.texto-ingredientes>article>ul>li{
+    padding-left: 16px;
+
+}
+.texto-ingredientes>article>ul>li::marker{
+    color: brown;
+
+}
+hr{
+    color: gray;
+    width: 100%;
+}
+.texto-instrucao>article>h3{
+    font-family: "youngSerf";
+    color: brown;
+    font-size: 2px;
+    font-weight: 600;
+
+}
+.texto-ingredientes>article>ol{
+    padding-inline-start: 15px;
+    font-family: "outfit";
+    color: (50, 49, 49,);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.texto-ingredientes>article>ol>li{
+    padding-left: 16px;
+}
+.texto-ingredientes>article>ol>li::marker{
+    color: brown;
+}
+
+.texto-instrucao>article>h3{
+    font-family: "youngSerif";
+    color: brown;
+    font-size: 28px;
+    font-weight: 600;
+    }
+    .texto-instrucao>article>ol{
+        padding-inline-start: 15px;
+        font-family: "outfit";
+        color: rgb(50, 49, 49,0.826);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .texto-instrucao>article>ol>li{
+        padding-left: 16px;
+    
+    }
+    .texto-instrucao>article>ol>li::marker{
+        color: brown;
+    
+    }
+    hr{
+        color: gray;
+        width: 100%;
+    }
